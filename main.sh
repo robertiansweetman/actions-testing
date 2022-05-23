@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-delimiter=','
 folders=($1)
 
 readarray -d , -t folders <<< "$folders"
